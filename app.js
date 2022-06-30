@@ -23,8 +23,8 @@ app.get('/', function (req, res) {
         tempat_tanggal_lahir: req.query.tempat_tanggal_lahir,
         jenis_kelamin:req.query.jenis_kelamin,
         hobi: req.body.hobi,
-        agama: req.body.agama,
-        telepon:req.body.telepon
+        tinggibadan: req.body.tinggibadan,
+        beratbadan:req.body.beratbadan
     })
   })
 
